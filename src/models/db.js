@@ -3,10 +3,10 @@ const mysql2 = require('mysql2');
 // 数据链接不推荐使用use中间件
 let mysql_config = {
     host: '172.17.0.1',//node.lemonyun.net
-    port: 3306,
-    user: 'task_user',
-    password: 'task_user_password',
-    database: 'taskdemo'
+    port: 9006,
+    user: 'root',
+    password: 'message0904mysql',
+    database: 'message'
 }
 var pool = mysql2.createPool(mysql_config)
 
